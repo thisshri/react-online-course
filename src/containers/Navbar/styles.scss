@@ -1,0 +1,51 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  ul {
+    padding: 0px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+
+    li {
+      padding: 10px 0px;
+      margin: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.33;
+      letter-spacing: 2px;
+      text-align: center;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    hr {
+      border: solid 3px #ffffff;
+      border-width: 0px 0px 3px 0px;
+    }
+  }
+
+  div {
+    display: flex;
+
+    button {
+      background-color: rgba(255, 255, 255, 0.27);
+      margin: 10px 10px;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      opacity: 0.8;
+      padding: 0px 20px;
+
+      &.leaderboard {
+        padding: 0px;
+        opacity: 1;
+      }
+    }
+  }
+}

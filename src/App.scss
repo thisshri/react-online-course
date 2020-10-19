@@ -1,0 +1,20 @@
+button {
+  height: 34px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+
+  &:focus, &:hover {
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.campk12 {
+  width: 100%;
+  position: absolute;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
