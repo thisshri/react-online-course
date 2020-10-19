@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="78" viewBox="0 0 78 78">
+    <defs>
+        <filter id="prefix__b" width="146.2%" height="140%" x="-23.1%" y="-20%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <circle id="prefix__a" cx="38" cy="38" r="38"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <mask id="prefix__c" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <g filter="url(#prefix__b)" mask="url(#prefix__c)">
+            <g>
+                <path fill="#29376E" fill-rule="nonzero" d="M38.892 7.475H44.85V17.875H38.892z" transform="translate(13 17)"/>
+                <path fill="#243164" fill-rule="nonzero" d="M36.617 2.167H47.125V7.8H36.617z" transform="translate(13 17)"/>
+                <path fill="#FFC628" fill-rule="nonzero" d="M4.55 31.266v27.559h42.467V31.266L25.783 6.825C17.55 16.427 12.892 21.789 4.55 31.266z" transform="translate(13 17)"/>
+                <path fill="#E0AD1F" fill-rule="nonzero" d="M47.125 28.058L25.892 6.825c-4.225 4.117-7.475 7.367-10.725 10.617L4.55 28.058v4.875L25.783 11.7l21.234 21.233v.65-5.525h.108z" transform="translate(13 17)"/>
+                <path fill="#F5F5F7" fill-rule="nonzero" d="M21.992 59.042H9.208V41.807c0-4.902 2.925-8.765 6.392-8.765 3.575 0 6.392 4.011 6.392 8.765v17.235z" opacity=".749" transform="translate(13 17)"/>
+                <path fill="#E0AD1F" fill-rule="nonzero" d="M25.783 33.042H42.466V47.667H25.783z" transform="translate(13 17)"/>
+                <g>
+                    <path fill="#F8E9C3" fill-rule="nonzero" d="M.095.041H5.837V11.199H.095zM7.57.041H13.312000000000001V11.199H7.57z" transform="translate(13 17) translate(27.422 34.734)"/>
+                </g>
+                <path fill="#1F2A55" fill-rule="nonzero" d="M51.025 23.617L28.383.975c-1.3-1.3-3.575-1.3-4.875 0L.975 23.617c-1.3 1.3-1.3 3.575 0 4.875 1.3 1.3 3.575 1.3 4.875 0L26 8.342l20.15 20.15c1.3 1.3 3.575 1.3 4.875 0 1.3-1.409 1.3-3.575 0-4.875z" transform="translate(13 17)"/>
+            </g>
+        </g>
+        <circle cx="38" cy="38" r="38" stroke="#FFF" stroke-width="2"/>
+    </g>
+</svg>
