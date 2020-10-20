@@ -12,6 +12,16 @@ nav {
     display: flex;
 
     li {
+      &:first-of-type {
+        margin-left: 0px;
+        margin-top: 5px;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
       padding: 10px 0px;
       margin: 10px;
       font-size: 15px;
@@ -19,14 +29,18 @@ nav {
       line-height: 1.33;
       letter-spacing: 2px;
       text-align: center;
-      color: #ffffff;
       cursor: pointer;
+
+      .selected {
+        & + div {
+          border: solid 3px #ffffff;
+          border-width: 0px 0px 3px 0px;
+          width: 30px;
+          padding: 5px;
+        }
+      }
     }
 
-    hr {
-      border: solid 3px #ffffff;
-      border-width: 0px 0px 3px 0px;
-    }
   }
 
   div {

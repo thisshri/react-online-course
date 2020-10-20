@@ -4,6 +4,7 @@ import Leaderboard from 'static/leaderboard.svg';
 import CampK12Logo from 'static/camp-k-12-logo.svg';
 
 import './styles.scss';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
@@ -12,16 +13,22 @@ const Navbar = () => (
         <img src={CampK12Logo} alt="Camp K12 Logo" />
       </li>
       <li>
-        Online Courses
-        <hr/>
+        <NavLink to="online-courses" activeClassName="selected">
+            Online Courses
+        </NavLink>
+        <div />
       </li>
       <li>
-        Offline Camps
-        <hr/>
+        <NavLink to="offline-camp" activeClassName="selected">
+          Offline Camps
+        </NavLink>
+        <div />
       </li>
       <li>
-        Refer & Earn
-        <hr/>
+        <NavLink to="refer-n-earn" activeClassName="selected">
+          Refer & Earn
+        </NavLink>
+        <div />
       </li>
     </ul>
     <div>
