@@ -9,7 +9,6 @@ import {
 
 import CampK12 from 'containers/CampK12';
 import Navbar from 'containers/Navbar';
-import HeaderBackground from 'static/header-background.svg';
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/">
-          <img className="campk12" alt="" src={HeaderBackground} />
-          <CampK12 className="fo" />
+          <CampK12 />
         </Route>
       </Switch>
     </HashRouter>

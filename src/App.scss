@@ -8,7 +8,9 @@
 }
 
 body {
-  background: #dbf2ff;
+  background-image: url('static/header-background.svg');
+  height: 90vh;
+  background-size: cover;
 }
 
 button {
