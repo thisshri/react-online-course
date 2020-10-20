@@ -1,0 +1,143 @@
+.course-card {
+  border: solid 1px #ebebeb;
+  border-radius: 4px;
+  max-width: 330px;
+
+  .card-image {
+    width: 330px;
+    height: 138px;
+    opacity: 0.16;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, var(--bright-sky-blue), #00d3d9);
+  }
+
+  .card-body {
+    margin: 0px 10px;
+
+    p {
+      font-size: 14px;
+      color: var(--dark-blue-grey);
+    }
+
+    .title {
+      margin: 10px;
+      letter-spacing: 0.2;
+
+      h6 {
+        color: var(--dark-blue-grey);
+        display: flex;
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    .sub-heading {
+      margin: 10px;
+      display: flex;
+      padding-bottom: 20px;
+      border-bottom: solid #ebebeb; 
+      border-width: 1px;
+      font-size: 12px;
+      letter-spacing: 0.17;
+      color: rgba(31, 42, 85, 0.4);
+      font-weight: 600;
+      
+      span:first-of-type {
+        margin-right: 30px;
+      }
+
+      b {
+        color: black;
+      }
+    }
+
+    .details {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+
+      p {
+        margin: 8px 0px 
+      }
+
+      .detail {
+        display: flex;
+        flex-direction: row;
+
+        img {
+          max-width: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .price-offer {
+      display: flex;
+      margin: 0px 10px;
+      padding-bottom: 15px;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: solid #ebebeb; 
+      border-width: 1px;
+
+      img {
+        margin-right: 5px;
+      }
+
+      h4 {
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 0.6;
+        letter-spacing: 0.1px;
+        color: var(--dark-blue-grey);
+        text-decoration: line-through;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      h5 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.1px;
+        color: var(--dark-blue-grey);
+        margin-right: 5px;
+      }
+
+      .price {
+        display: flex;
+        
+        div {
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .offer {
+        display: flex;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.11px;
+        color: #019977;
+      }
+    }
+
+    .link {
+      text-align: center;
+      padding: 15px;
+
+      a {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #076fec;
+        text-decoration: none;
+      }
+    }
+  }
+}

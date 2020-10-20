@@ -1,8 +1,21 @@
+:root {
+  --pinkish-grey: #c6c6c6;
+  --greyish-brown: #454545;
+  --ice-blue: #f9fcff;
+  --turquoise: #0bc29f;
+  --bright-sky-blue: #00b1ff;
+  --dark-blue-grey: #1f2a55;
+}
+
 body {
   background: #dbf2ff;
 }
 
 button {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--dark-blue-grey);
   height: 34px;
   text-transform: uppercase;
   border-radius: 4px;
