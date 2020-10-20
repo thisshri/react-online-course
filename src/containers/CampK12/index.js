@@ -85,7 +85,7 @@ const COURSE_DATA = [
 
 const CampK12 = () => { 
   return (
-    <div className="online-courses">
+    <div className="online-courses container">
       <h1>
         ONLINE COURSES
       </h1>

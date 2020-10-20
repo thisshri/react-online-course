@@ -7,7 +7,7 @@ import './styles.scss';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav>
+  <nav className="container">
     <ul>
       <li>
         <img src={CampK12Logo} alt="Camp K12 Logo" />
