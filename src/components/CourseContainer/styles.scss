@@ -1,9 +1,14 @@
 .course-container {
-  padding: 50px;
+  padding: 20px;
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
   margin-bottom: 50px;
+
+
+  @media (min-width: 576px) {
+    padding: 50px;
+  }
 
   .buttons {
     text-align: center;
@@ -45,6 +50,7 @@
     justify-content: space-between;
     font-size: 14px;
     color: var(--dark-blue-grey);
+    margin-bottom: 20px;
 
     select {
       width: 238px;
@@ -55,6 +61,21 @@
       font-size: 12px;
       letter-spacing: 0.5px;
       color: var(--dark-blue-grey);
+    }
+  }
+
+  .course-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+
+    @media (min-width: 576px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 992px) {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 }
