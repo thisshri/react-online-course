@@ -1,12 +1,14 @@
 .course-container {
+  padding: 50px;
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
 
   .buttons {
     text-align: center;
     position: relative;
-    bottom: 24px;
+    bottom: 74px;
 
     button {
       background-color: white;
@@ -41,5 +43,18 @@
   .header {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    color: var(--dark-blue-grey);
+
+    select {
+      width: 238px;
+      height: 40px;
+      border-radius: 4px;
+      border: solid 1px #d8e4eb;
+      background-color: #ffffff;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      color: var(--dark-blue-grey);
+    }
   }
 }

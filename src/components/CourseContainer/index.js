@@ -17,7 +17,7 @@ const CourseContainer = ({
       </div>
       <div className="header">
         <p>
-          Showing {"All"} courses for {"Grade 5-8"}
+          Showing <b>{"All"}</b> courses for <b>{"Grade 5-8"}</b>
         </p>
         <select>
           <option>All Courses</option>
