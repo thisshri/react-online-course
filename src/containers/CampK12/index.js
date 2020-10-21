@@ -89,7 +89,7 @@ const CampK12 = () => {
       <h1>
         ONLINE COURSES
       </h1>
-      <div>
+      <div className="banner-cards">
         <BannerCard
           image={GroupImg}
           title="Learn interactively."
@@ -112,7 +112,7 @@ const CampK12 = () => {
           image={TabletImg}
           title="Learn by doing."
           description="100% project-based curriculum. Solve real-world problems."
-      />
+        />
       </div>
       <button className="book-button">
         Book a free trial
