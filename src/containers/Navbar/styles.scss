@@ -37,11 +37,6 @@ nav {
       text-transform: uppercase;
 
       li {
-        a {
-          color: #ffffff;
-          text-decoration: none;
-        }
-
         padding: 10px 0px;
         margin: 10px;
         font-size: 15px;
@@ -49,10 +44,13 @@ nav {
         line-height: 1.33;
         letter-spacing: 2px;
         text-align: center;
-        cursor: pointer;
+
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
 
         .selected {
-
           & + div {
             border: solid 1px #ffffff;
             margin-left: auto;
@@ -106,19 +104,18 @@ nav {
       display: flex;
 
       li {
-        a {
-          color: #ffffff;
-          text-decoration: none;
-        }
-
-        padding: 10px 0px;
-        margin: 10px;
+        margin: 20px 10px;
         font-size: 15px;
         font-weight: 600;
         line-height: 1.33;
         letter-spacing: 2px;
         text-align: center;
-        cursor: pointer;
+
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          padding: 10px 0px;
+        }
 
         .selected {
           & + div {
@@ -129,7 +126,6 @@ nav {
           }
         }
       }
-
     }
 
     div {
