@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/assignment-react-camp-k12/static/css/main.0486d53d.chunk.css",
+    "main.css": "/assignment-react-camp-k12/static/css/main.b9899019.chunk.css",
     "main.js": "/assignment-react-camp-k12/static/js/main.ee662ed8.chunk.js",
     "main.js.map": "/assignment-react-camp-k12/static/js/main.ee662ed8.chunk.js.map",
     "runtime-main.js": "/assignment-react-camp-k12/static/js/runtime-main.7b417192.js",
@@ -8,9 +8,9 @@
     "static/js/2.ee57b4e5.chunk.js": "/assignment-react-camp-k12/static/js/2.ee57b4e5.chunk.js",
     "static/js/2.ee57b4e5.chunk.js.map": "/assignment-react-camp-k12/static/js/2.ee57b4e5.chunk.js.map",
     "index.html": "/assignment-react-camp-k12/index.html",
-    "precache-manifest.280920e51716ca039de3b1aa7498cd2b.js": "/assignment-react-camp-k12/precache-manifest.280920e51716ca039de3b1aa7498cd2b.js",
+    "precache-manifest.e2b7f2636c7a2906383b2000dae16629.js": "/assignment-react-camp-k12/precache-manifest.e2b7f2636c7a2906383b2000dae16629.js",
     "service-worker.js": "/assignment-react-camp-k12/service-worker.js",
-    "static/css/main.0486d53d.chunk.css.map": "/assignment-react-camp-k12/static/css/main.0486d53d.chunk.css.map",
+    "static/css/main.b9899019.chunk.css.map": "/assignment-react-camp-k12/static/css/main.b9899019.chunk.css.map",
     "static/js/2.ee57b4e5.chunk.js.LICENSE.txt": "/assignment-react-camp-k12/static/js/2.ee57b4e5.chunk.js.LICENSE.txt",
     "static/media/camp-k-12-logo.svg": "/assignment-react-camp-k12/static/media/camp-k-12-logo.4ff6c7b7.svg",
     "static/media/community.svg": "/assignment-react-camp-k12/static/media/community.15b2a5c8.svg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b417192.js",
     "static/js/2.ee57b4e5.chunk.js",
-    "static/css/main.0486d53d.chunk.css",
+    "static/css/main.b9899019.chunk.css",
     "static/js/main.ee662ed8.chunk.js"
   ]
 }
