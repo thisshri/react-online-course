@@ -13,7 +13,11 @@
   .buttons {
     text-align: center;
     position: relative;
-    bottom: 74px;
+    bottom: 34px;
+
+    @media (min-width: 576px) {
+      bottom: 74px;
+    }
 
     button {
       background-color: white;
@@ -22,8 +26,11 @@
       border: solid #d8e4eb;
       border-width: 1px 0px 1px 0px;
       color: var(--dark-blue-grey);
-      width: 140px;
-      height: 48px;
+
+      @media (min-width: 576px) {
+        width: 140px;
+        height: 48px;
+      }
 
       &:first-of-type {
         border-radius: 4px 0px 0px 4px;
