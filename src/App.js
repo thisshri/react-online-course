@@ -16,18 +16,17 @@ function App() {
     <HashRouter>
       <Navbar />
       <Switch>
-        <Route path="/">
-          <Redirect to="/online-courses" />
-          <CampK12 />
-        </Route>
         <Route path="/online-courses">
           <CampK12 />
         </Route>
         <Route path="/offline-camp">
-          <h1>404</h1>
+          <h1>WIP</h1>
         </Route>
         <Route path="/refer-n-earn">
-          <h1>404</h1>
+          <h1>WIP</h1>
+        </Route>
+        <Route path="/">
+          <Redirect to="/online-courses" />
         </Route>
       </Switch>
     </HashRouter>
