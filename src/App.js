@@ -5,6 +5,7 @@ import {
   HashRouter,
   Switch,
   Route,
+  Redirect,
 } from 'react-router-dom';
 
 import CampK12 from 'containers/CampK12';
@@ -15,6 +16,10 @@ function App() {
     <HashRouter>
       <Navbar />
       <Switch>
+        <Route path="/">
+          <Redirect to="/online-courses" />
+          <CampK12 />
+        </Route>
         <Route path="/online-courses">
           <CampK12 />
         </Route>
