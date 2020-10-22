@@ -1,23 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import CourseCard from 'components/CourseCard';
 import './styles.scss'
 
 const CourseContainer = ({
-  types,
+  gradeRanges,
   coursesData,
 }) => {
+  const [grade, setGrade] = useState(gradeRanges[1]);
+
   return (
     <div className="course-container">
       <div className="buttons">
-        { types.map(
-            (type) => <button>{ type }</button>
+        { gradeRanges.map(
+            (type) => (
+              <button
+                className={type === grade && 'active'}
+                onClick={() => setGrade(type)}
+              >
+                { `Grade ${type}` }
+              </button>
+            )
           )
         }
       </div>
       <div className="header">
         <p>
-          Showing <b>{"All"}</b> courses for <b>{"Grade 5-8"}</b>
+          Showing <b>{"All"}</b> courses for <b>{`Grade ${grade}`}</b>
         </p>
         <select>
           <option>All Courses</option>
@@ -25,7 +34,7 @@ const CourseContainer = ({
       </div>
       <div className="course-cards">
         {
-          coursesData.map(
+          coursesData.filter(course => course.gradeRange === grade).map(
             (course) => (
               <CourseCard
                 title={course.title}
