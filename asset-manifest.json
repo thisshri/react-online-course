@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/assignment-react-camp-k12/static/css/main.6d3d68fe.chunk.css",
-    "main.js": "/assignment-react-camp-k12/static/js/main.9e1d8a7d.chunk.js",
-    "main.js.map": "/assignment-react-camp-k12/static/js/main.9e1d8a7d.chunk.js.map",
+    "main.css": "/assignment-react-camp-k12/static/css/main.ecc3b356.chunk.css",
+    "main.js": "/assignment-react-camp-k12/static/js/main.ee662ed8.chunk.js",
+    "main.js.map": "/assignment-react-camp-k12/static/js/main.ee662ed8.chunk.js.map",
     "runtime-main.js": "/assignment-react-camp-k12/static/js/runtime-main.7b417192.js",
     "runtime-main.js.map": "/assignment-react-camp-k12/static/js/runtime-main.7b417192.js.map",
-    "static/js/2.ef7bf53c.chunk.js": "/assignment-react-camp-k12/static/js/2.ef7bf53c.chunk.js",
-    "static/js/2.ef7bf53c.chunk.js.map": "/assignment-react-camp-k12/static/js/2.ef7bf53c.chunk.js.map",
+    "static/js/2.ee57b4e5.chunk.js": "/assignment-react-camp-k12/static/js/2.ee57b4e5.chunk.js",
+    "static/js/2.ee57b4e5.chunk.js.map": "/assignment-react-camp-k12/static/js/2.ee57b4e5.chunk.js.map",
     "index.html": "/assignment-react-camp-k12/index.html",
-    "precache-manifest.f58ee0e498a898e5f769acd46d94d4a3.js": "/assignment-react-camp-k12/precache-manifest.f58ee0e498a898e5f769acd46d94d4a3.js",
+    "precache-manifest.64a39db4cb7523288cce24f4999bef6f.js": "/assignment-react-camp-k12/precache-manifest.64a39db4cb7523288cce24f4999bef6f.js",
     "service-worker.js": "/assignment-react-camp-k12/service-worker.js",
-    "static/css/main.6d3d68fe.chunk.css.map": "/assignment-react-camp-k12/static/css/main.6d3d68fe.chunk.css.map",
-    "static/js/2.ef7bf53c.chunk.js.LICENSE.txt": "/assignment-react-camp-k12/static/js/2.ef7bf53c.chunk.js.LICENSE.txt",
+    "static/css/main.ecc3b356.chunk.css.map": "/assignment-react-camp-k12/static/css/main.ecc3b356.chunk.css.map",
+    "static/js/2.ee57b4e5.chunk.js.LICENSE.txt": "/assignment-react-camp-k12/static/js/2.ee57b4e5.chunk.js.LICENSE.txt",
     "static/media/camp-k-12-logo.svg": "/assignment-react-camp-k12/static/media/camp-k-12-logo.4ff6c7b7.svg",
     "static/media/community.svg": "/assignment-react-camp-k12/static/media/community.15b2a5c8.svg",
     "static/media/group-40.svg": "/assignment-react-camp-k12/static/media/group-40.9aa55bf5.svg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7b417192.js",
-    "static/js/2.ef7bf53c.chunk.js",
-    "static/css/main.6d3d68fe.chunk.css",
-    "static/js/main.9e1d8a7d.chunk.js"
+    "static/js/2.ee57b4e5.chunk.js",
+    "static/css/main.ecc3b356.chunk.css",
+    "static/js/main.ee662ed8.chunk.js"
   ]
 }
