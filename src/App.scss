@@ -8,9 +8,19 @@
 }
 
 body {
+  background-color: #dbf2ff;
   background-image: url('static/header-background.svg');
-  height: 90vh;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 1020px;
+
+  @media (min-width: 768px) {
+    height: 740px;
+  }
+
+  @media (min-width: 992px) {
+    height: 540px;
+  }
 }
 
 .container {
