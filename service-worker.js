@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/assignment-react-camp-k12/precache-manifest.f4a9066947c252d3712b84302df46e59.js"
+  "/assignment-react-camp-k12/precache-manifest.280920e51716ca039de3b1aa7498cd2b.js"
 );
 
 self.addEventListener('message', (event) => {
