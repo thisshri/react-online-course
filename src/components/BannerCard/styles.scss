@@ -4,25 +4,24 @@
 
   p {
     margin: 5px 0px;
-  }
-  p:first-of-type {
-    font-size: 18px;
-    font-weight: 600;
-  }
-  
-  p:nth-of-type(2) {
-    opacity: 0.88;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 20px;
-    color: #ffffff;
 
-    a {
-      color: white;
+    &:first-of-type {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    &:nth-of-type(2) {
+      opacity: 0.88;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 20px;
+      color: #ffffff;
+
+      a {
+        color: white;
+      }
     }
   }
-
 }
