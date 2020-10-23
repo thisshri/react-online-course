@@ -9,7 +9,7 @@ const BannerCard = ({
   link,
   linkText,
 }) => (
-  <div className="bannerCard">
+  <div className="banner-card">
     <img alt="" src={image}></img>
     <p>
       {title}
