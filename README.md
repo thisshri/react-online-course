@@ -1,4 +1,4 @@
-# Readme
+# Camp-k12 ReactJs Assignment
 
 > The assignment is deployed at https://thisshri.github.io/assignment-react-camp-k12/#/online-courses
 ### Note
