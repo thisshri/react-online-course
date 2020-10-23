@@ -12,14 +12,14 @@ body {
   background-image: url('static/header-background.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1020px;
+  height: 1050px;
 
   @media (min-width: 768px) {
-    height: 740px;
+    height: 720px;
   }
 
   @media (min-width: 992px) {
-    height: 540px;
+    height: 520px;
   }
 }
 
