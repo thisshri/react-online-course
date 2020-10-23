@@ -46,15 +46,15 @@ const CourseCard = ({
 
       <div className="details">
         <div className="detail">
-          <img src={GrowthImage} />
+          <img alt="" src={GrowthImage} />
           <p><b>{parseFloat(happyStudents / 1000)}k</b> Happy Students</p>
         </div>
         <div className="detail">
-          <img src={TimerImage} />
+          <img alt="" src={TimerImage} />
           <p><b>{hours} Hours</b> over <span>{sessions}</span> Sessions</p>
         </div>
         <div className="detail">
-          {(isWeekday || isWeekend) && <img src={CommunityImage} />}
+          {(isWeekday || isWeekend) && <img alt="" src={CommunityImage} />}
           <p>
             {isWeekend && 'Weekend'}
             {(isWeekend && isWeekday) && ' and '}
@@ -66,7 +66,7 @@ const CourseCard = ({
 
       <div className="price-offer">
         <div className="price">
-          <img src={RupeesImage} />
+          <img alt="" src={RupeesImage} />
           { (parseInt(discount) > 0)
             ? <div>
                 <h5>{parseInt(price) - (parseInt(price) * parseInt(discount)/100)}</h5>
@@ -78,7 +78,7 @@ const CourseCard = ({
         {
           discount && parseInt(discount) && (
             <div className="offer">
-              <img src={OfferImage} />
+              <img alt="" src={OfferImage} />
               {`${discount}% off`}
             </div>
           )

@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useState } from 'react'
 
 import Leaderboard from 'static/leaderboard.svg';
 import CampK12Logo from 'static/camp-k-12-logo.svg';
