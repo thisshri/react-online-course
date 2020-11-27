@@ -86,7 +86,7 @@ const CourseCard = ({
       </div>
 
       <div className="link">
-        <Link to={learnMoreLink}>
+        <Link onClick={(e) => e.preventDefault()} to={learnMoreLink}>
           LEARN MORE
         </Link>
       </div>
