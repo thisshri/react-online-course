@@ -212,9 +212,11 @@ const CampK12 = () => {
           description="100% project-based curriculum. Solve real-world problems."
         />
       </div>
-      <button className="book-button">
-        Book a free trial
-      </button>
+      <div className="book-button">
+        <button>
+          Book a free trial
+        </button>
+      </div>
       <CourseContainer
         gradeRanges={["1-4", "5-8", "9-12"]}
         coursesData={COURSE_DATA}
