@@ -1,6 +1,6 @@
 # Camp-k12 ReactJs Assignment
 
-> The assignment is deployed at https://thisshri.github.io/assignment-react-camp-k12/#/online-courses
+> The assignment is deployed at https://thisshri.github.io/react-online-course/#/online-courses
 ### Note
 * Responsive design including Navbar
 * I have created a route for "Online Courses", "Offline Camps" and "Refer & Earn" so the active nav button is also dynamic.
