@@ -2,7 +2,7 @@
   "name": "camk-k12",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thisshri.github.io/assignment-react-camp-k12/",
+  "homepage": "https://thisshri.github.io/react-online-course/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
